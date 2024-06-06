@@ -1,0 +1,23 @@
+{
+    "name": "webdriverio-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "wdio"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@wdio/cli": "^8.38.2",
+        "@wdio/junit-reporter": "^8.38.2",
+        "webdriverio": "^8.38.2"
+    },
+    "devDependencies": {
+        "@wdio/local-runner": "^8.38.2",
+        "@wdio/mocha-framework": "^8.38.2",
+        "@wdio/spec-reporter": "^8.38.2",
+        "@wdio/visual-service": "^4.1.3"
+    }
+}
